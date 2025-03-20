@@ -1,0 +1,44 @@
+.contact-container {
+  background-color: #e7e5e4; /* Equivalent to bg-stone-200 */
+  color: black;
+  padding: 50px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-label {
+  width: 80%;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contact-input,
+.contact-textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  color: black;
+}
+
+.contact-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: skyblue;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #21a1f1;
+}
